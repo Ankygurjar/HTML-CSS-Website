@@ -1,0 +1,413 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  font-family: 'Mali', cursive;
+}
+
+/* Header portion starts here */
+.main-header{
+  background-image: url("../images/banner.jfif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  filter:blur(0.1px);
+  background-position: center;
+}
+
+.main-header nav{
+  text-align: right;
+  z-index: 2;
+}
+
+.main-header nav ul{
+  z-index: 2;
+}
+
+.main-header nav ul li{
+  display: inline-block;
+  z-index: 2;
+  padding: 1.4rem;
+}
+
+#link-button{
+  padding: 15px;
+  border-radius: 10px;
+  background-color: lightgreen;
+  text-decoration: none;
+  z-index: 2;
+  color:black;
+}
+
+#link-button:hover{
+  color:red;
+  text-decoration: underline;
+}
+
+.main-header nav ul li a{
+  padding: 10px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: 	green;
+}
+
+.main-header nav ul li a:hover{
+  text-decoration: underline;
+  color:red;
+}
+
+.poster-content{
+  text-align: center;
+  margin-top:18vw;
+  color:white;
+}
+
+.poster-content p{
+  font-size:1.5rem;
+}
+
+/* Header Portion ends here */
+
+/* Container Begins from here */
+
+.top-article{
+  width:70%;
+  margin:auto;
+}
+
+.container{
+  width:70%;
+  margin: auto;
+}
+
+.main-section{
+  clear:both;
+  text-align: center;
+  background-color: #e9edf0;
+  padding: 10px;
+}
+
+.home-items{
+  width:100%;
+  padding: 1vw;
+
+}
+
+
+.item-one .item-image,.item-three .item-image{
+  width: 45%;
+  float:left;
+  border-right: 2px solid grey;
+}
+.item-one,.item-two,.item-three,.item-four{
+  clear:both;
+}
+.item-two .item-image,.item-four .item-image{
+  width: 45%;
+  float:right;
+
+}
+
+.item-one .item-image img, .item-two .item-image img, .item-three .item-image img, .item-four .item-image img,.item-five .item-image img{
+  height: 400px;
+}
+
+.item-one .item-desc,.item-three .item-desc{
+  width: 45%;
+  float:right;
+  text-align: center;
+  padding-right: 15%;
+  padding-top: 15%;
+  margin: 10px;
+}
+
+.item-two .item-desc, .item-four .item-desc{
+  width:45%;
+  text-align:center;
+  padding-top: 15%;
+  padding-left:15%;
+}
+
+.item-desc a{
+  text-decoration:none;
+  padding: 10px;
+  background-color: lightgreen;
+  border-radius:10px;
+  color:black;
+}
+
+.bottom-article{
+  width:70%;
+  margin: auto;
+  clear:both;
+  height: 180px;
+  padding-left: 3vw;
+}
+
+.right-article, .middle-article, .left-article{
+  width:30%;
+  float:left;
+}
+
+.right-article img, .middle-article img, .left-article img{
+  width:25%;
+}
+
+.main-footer{
+  clear:both;
+  background-color: lightgrey;
+  height: 270px;
+  padding: 20px;
+  overflow: auto;
+}
+
+.footer-items{
+  width:100%;
+  clear: both;
+  text-align: center;
+}
+
+.right-item, .middle-item, .right-item{
+  float:left;
+  width:30%;
+  padding: 10px;
+}
+
+.middle-item li{
+  list-style-type: none;
+}
+
+.middle-item li a{
+  text-decoration: none;
+  color:black;
+}
+
+#icon-footer{
+  width:17%;
+  margin: 10px;
+  border-radius:50%;
+}
+
+#copyright{
+  padding: 0px;
+  text-align: center;
+  height: 10px;
+  clear: both;
+  margin-bottom: 20px;
+}
+
+/*----------------- INDEX ENDS HERE ------------------------------------------------ */
+
+.top-header{
+  clear: both;
+}
+
+.navigation{
+  width:48%;
+  float: right;
+  padding-top:3vw;
+}
+
+.navigation ul li{
+  display: inline-block;
+}
+
+.navigation ul li a{
+  padding: 10px;
+  color:green;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+.navigation ul li a:hover{
+  text-decoration: underline;
+  color:red;
+}
+
+.top-logo{
+  width:48%;
+  float: left;
+}
+
+.top-logo img{
+  height: 8vw;
+}
+
+/* -------------------------------------------- GALLERY -------------------------------- */
+
+.gallery-section{
+  clear: both;
+  width:80%;
+  margin: auto;
+}
+
+.gallery-item{
+  width:30%;
+  float: left;
+  text-align: center;
+  padding: 20px;
+}
+
+.gallery-item img{
+  width: 12vw;
+  height: 230px;
+}
+
+/* ----------------------------------------------CATALOG--------------------------------*/
+
+.catalog-section{
+  clear: both;
+}
+
+.catalog-item{
+  border:2px solid #ccc;
+  margin: 6px;
+  border-radius: 10px;
+  width:30%;
+  float: left;
+  height: 400px;
+  text-align: center;
+  padding: 20px;
+}
+
+.catalog-item:hover{
+  background-color: #ccc;
+  box-shadow: 0px 10px 10px #888888;
+}
+
+.catalog-item img{
+  width: 14vw;
+  height: 230px;
+}
+
+#del{
+  color:red;
+}
+
+#avail{
+  color:green;
+}
+
+/* ------------------------------------------------- COMPARE -------------------------------------*/
+
+.comparison{
+  clear: both;
+  padding: 20px;
+}
+
+#compare-image{
+  width:6vw;
+  height: 70px;
+  padding: 5px;
+}
+
+.comparison table{
+  text-align: center;
+  width:80%;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+.comparison table tr:nth-child(even){
+  background-color: lightgrey;
+  color:green;
+}
+
+.comparison table tr:hover{
+  background-color: grey;
+}
+
+#table-heading{
+  padding: 10px;
+  margin: 5px;
+  background-color: black;
+  color:white;
+}
+
+/* ------------------------------------------- PRODUCT INFORMATION -------------------*/
+
+.products{
+  clear: both;
+  width:100%;
+  padding: 35px;
+  padding-top: 70px;
+}
+
+.products .product-info-image, .product-info-desc{
+  float:left;
+  width:46%;
+  height: 450px;
+  padding-left:50px;
+}
+
+.product-info-image img{
+  width:75%;
+  height: 320px;
+}
+
+.products .product-info-desc{
+  padding: 40px;
+  overflow: auto;
+}
+
+/* ------------------------------------------------- Contact -----------------*/
+
+.contact{
+  clear: both;
+  margin: 10px;
+}
+
+.form{
+  width:40%;
+  float:left;
+  margin: 10px;
+  border-right: 2px solid #ccc;
+}
+
+.query{
+  border:1px solid black;
+}
+
+.input{
+  border-top:none;
+  border-right:none;
+  border-left:none;
+  border-bottom:2px solid #ccc;
+  width: 85%;
+  padding: 10px;
+}
+
+.select{
+  border:1px solid black;
+  width:85%;
+  padding: 10px;
+  background-color: lightgrey;
+  font-weight: bold;
+}
+
+.submit{
+  width:85%;
+  background-color: lightgreen;
+  padding: 10px;
+  color:white;
+  font-size:1.6rem;
+  border-radius: 10px;
+  border:none;
+}
+
+.map{
+  width:20%;
+  float:left;
+  padding: 10px;
+  padding-top: 20vh;
+}
